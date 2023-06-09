@@ -48,8 +48,6 @@ def find_username(file_name):
     @return corresponding information for username
        """
     
-
-
 if __name__ == "__main__":
     registrations_file = get_file_contents()
     information = find_username(registrations_file)
